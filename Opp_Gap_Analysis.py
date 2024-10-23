@@ -17,7 +17,7 @@ if uploaded_file is not None:
         Save_list = pickle.load(file)
     df,Questions,group_dic,Question_dic,Question_label_replacement,Single_column_dic,reorder_list = Save_list
     
-    Question_num = st.sidebar.selectbox("Which question to analyse",('Question 6','Question 7','T1','T2','Question 8','Question 9','Question 10.1','Question 10.2','Question 10.3','Question 10.4','Question 10.5','Question 10.6','Question 10.7','Question 11','Question 13','Question 14','Question 15.1','Question 15.2','Question 15.3','Question 15.4','Question 15.5','Question 16.1','Question 16.2','Question 16.3','Question 16.4','Question 17','Question 18.1','Question 18.2','Question 18.3','Question 18.4','Question 18.5','Question 18.6','Question 18.7','Question 18.8'))
+    Question_num = st.sidebar.selectbox("Which question to analyse",('Question 6','Question 7','T1','T2','Question 8','Question 9','Question 10.1','Question 10.2','Question 10.3','Question 10.4','Question 10.5','Question 10.6','Question 10.7','Question 11','Question 13','Question 14','Question 15.1','Question 15.2','Question 15.3','Question 15.4','Question 15.5','Question 16.1','Question 16.2','Question 16.3','Question 16.4','Question 17','Question 18.1','Question 18.2','Question 18.3','Question 18.4','Question 18.5','Question 18.6','Question 18.7','Question 18.8','Question 19.1','Question 19.2','Question 19.3','Question 19.4','Question 19.5','Question 19.6','Question 19.7','Question 19.8','Question 20.a','Question 20.b','Question 20.c','Question 20.d','Question 20.e','Question 20.f','Question 20.g','Question 20.h','Question 21','Question 23'))
     
     #Create the sidebar
     st.sidebar.write('Which groups would you like to compare?')
